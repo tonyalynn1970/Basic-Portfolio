@@ -1,0 +1,47 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  border-bottom: 1px solid #e0d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+section {
+  width: 400px;
+}
+
+h1 {
+  font-size: 30px;
+  color: black;
+  text-align: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+.container {
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #4aaaa5;
+}
