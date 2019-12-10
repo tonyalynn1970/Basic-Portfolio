@@ -2,38 +2,57 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-</body>
-<section id="Contact"></section>
-<header>
-  <h1>Tonya McAllister</h1>
-  <nav>
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
-<h2>Contact</h2>
+<body>
 
-<div class="container">
+  <header id="headers">
+    <div class="container">
+      <a href="index.html" id="logo">Tonya McAllister</a>
+      <nav>
 
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
 
-  <body>
+      </nav>
+    </div>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="mytext">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="mail" name="email" class="mytext">
+          </li>
+          <li>
+
+            <label for="msg">Message</label>
+            <textarea id="message" name="message" class="mymsg"></textarea>
+          </li>
+        </ul>
+
+        <button type="submit">Submit</button>
+
+      </form>
     </section>
-</div>
-</main>
-
-<footer>
-  <p>copyright</p>
-</footer>
-
+  </div>
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
 
 </html>
